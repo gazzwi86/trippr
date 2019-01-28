@@ -1,0 +1,38 @@
+.header {
+  grid-area: header;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: #0093d0;
+}
+
+.header__menu-btn,
+.header__logo,
+.header__session-btns {
+  flex: 1;
+  line-height: 2rem;
+}
+
+.header__logo {
+  text-align: center;
+}
+
+.header__session-btns {
+  text-align: right;
+}
+
+.header__session-btns a,
+.header__session-btns a:hover,
+.header__session-btns a:active,
+.header__session-btns a:visited,
+.header__session-btns a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__logo img {
+  vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+.button {
+  background-color: #0093d0;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.button--secondary {
+  padding: 0;
+  color: #0093d0;
+  background-color: #fff;
+  margin-right: 1rem;
+}
+
+.button--right {
+  float: right;
+}
+
+.button:focus {
+  outline: none;
+}

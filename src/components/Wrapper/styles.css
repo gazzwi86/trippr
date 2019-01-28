@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrapper__page {
+  display: grid;
+  grid-template-columns: 250px calc(50% - 125px) calc(50% - 125px);
+  grid-template-rows: 3rem auto 2rem;
+  grid-template-areas: 'nav header header'
+    'nav main main'
+    'nav footer footer';
+  width: calc(100% + 250px);
+  min-height: 100vh;
+  margin-left: -250px;
+  transition: margin-left 400ms;
+}
+
+.wrapper__page--menu-active {
+  margin-left: 0;
+}
+
+.wrapper__main {
+  grid-area: main;
+  box-sizing: border-box;
+  padding: 1rem;
+}

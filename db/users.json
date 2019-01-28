@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5c4cd28964d8c87b8a92c59d"},"lists":["5c4cd29c64d8c87b8a92c59e","5c4cd29f64d8c87b8a92c59f"],"email":"gazzwi86@gmail.com","password":"$2b$12$PjDRlenQ7k34hCDpyHFWLeSZGs8Emrxtayqu.ad3/AFaaVEdVL2ke","country":"GB","createdAt":{"$date":{"$numberLong":"1548538505452"}},"updatedAt":{"$date":{"$numberLong":"1548538505452"}},"__v":{"$numberInt":"0"}}

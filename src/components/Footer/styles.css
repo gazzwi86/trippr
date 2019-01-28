@@ -1,0 +1,16 @@
+.footer {
+  grid-area: footer;
+  justify-content: end;
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: #0093d0;
+  color: #fff;
+}
+
+.footer__copy {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

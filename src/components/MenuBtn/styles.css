@@ -1,0 +1,44 @@
+.menu-btn {
+  width: 3rem;
+  height: 2rem;
+  transition: all 400ms ease-in-out;
+}
+
+.menu-btn__button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.menu-btn__button:focus {
+  outline: none;
+}
+
+.menu-btn--active {
+  transform: rotate(180deg);
+}
+
+.menu-line {
+  width: 2.5rem;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+.menu-line--center{
+  margin: 8px 0;
+}
+
+.menu-btn--active .menu-line--top,
+.menu-btn--active .menu-line--bottom {
+  width: 20px;
+}
+
+.menu-btn--active .menu-line--top {
+  transform: translateX(25px) translateY(7px) rotate(45deg);
+}
+
+.menu-btn--active .menu-line--bottom {
+  transform: translateX(25px) translateY(-7px) rotate(-45deg);
+}

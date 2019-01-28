@@ -1,0 +1,36 @@
+.nav {
+  grid-area: nav;
+  width: 250px;
+  height: 100%;
+  background-color: #4d4e4f;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.nav__heading {
+  color: #0093d0;
+}
+
+.nav__list {
+  list-style-type: square;
+  margin: 0 0 0 2rem;
+  padding: 0;
+}
+
+.nav__list-item {
+  padding: 0.5rem;
+}
+
+.nav__list-item a,
+.nav__list-item a:hover,
+.nav__list-item a:active,
+.nav__list-item a:visited,
+.nav__list-item a:focus {
+  color: #0093d0;
+  text-decoration: none;
+}
+
+.nav__list-item a:hover {
+  color: #fff;
+}
